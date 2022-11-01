@@ -22,6 +22,9 @@ To train small students from scratch by distilling knowledge from teacher networ
 Tiny ImageNet: --weight_decay 0.0001 --pro 0.3 --alphas '0.1, 0.5, 1.0' --ps '64, 32' --search_T 4 --kd_T 4 --epochs 100 --lr_decay_epochs '30,60,90' --updata_epoch 30<br>
 ImageNet: --weight_decay 0.00005 --pro 0.5 --alphas '0.1, 0.3' --ps '224, 112' --epochs 100 --search_T 2 --kd_T 2 --lr_decay_epochs '30,60,90' --updata_epoch 20 
 
+## Notes
+PE-BKD is a general framework. You can design **the prior region** based on the prior knowledge that you have about the target task. 
+
 
 ## Citation
 If you find this code helpful, you may consider citing this paper:
