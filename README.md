@@ -23,7 +23,7 @@ Tiny ImageNet: --weight_decay 0.0001 --pro 0.3 --alphas '0.1, 0.5, 1.0' --ps '64
 ImageNet: --weight_decay 0.00005 --pro 0.5 --alphas '0.1, 0.3' --ps '224, 112' --epochs 100 --search_T 2 --kd_T 2 --lr_decay_epochs '30,60,90' --updata_epoch 20 
 
 ## Notes
-PE-BKD is a general framework. You can design **the prior region** based on the prior knowledge that you have about the target task. 
+PE-BKD is a general framework. You can design **the prior region** based on the prior knowledge that you have about your target task. 
 
 
 ## Citation
